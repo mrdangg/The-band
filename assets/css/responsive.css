@@ -1,0 +1,124 @@
+/* Pc > 1024px */
+/* chuyển sang em  */
+@media screen and (min-width:64em) {
+   
+}
+
+/* table >=740px and <=1024px */
+/* chuyển sang em  */
+@media screen and (min-width:46.25em) and (max-width:63.9375em) {
+    .modal-container {
+        width: 90%;
+    }
+
+    .contact-from .from-control {
+        padding: 15px;
+    }
+
+    .contact-buy-btn {
+        padding: 16px 16px;
+    }
+}
+
+/* mobile <740px */
+/* chuyển sang em  */
+@media screen and (max-width:45.1875em) {
+    #content .member-item {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-mobile {
+        display: block;
+    }
+    
+
+    #nav{
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav li a {
+        padding: 5px 40px;
+    }
+
+    #slider .text-content {
+        display: none;
+    }
+
+
+    #content .Team-img {
+        width: 60%;
+        margin-bottom: 16px;
+    }
+
+    .modal-container {
+        width: 90%;
+    }
+
+    .contact-info p {
+        margin-bottom: 8px;
+    }
+}
+
+/* chuyển sang em  */
+/* table and pc >740px  */
+
+@media screen and (min-width:46.25em) {
+    #header .search-btn {
+        display: block;
+    }
+}
+/* chuyển sang em  */
+/* mobile & table <1024px */
+@media  screen and (max-width:63.9375em) {
+    .places-buy-btn {
+        padding: 16px 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .list-icon {
+        font-size: 30px;
+    }
+    #footer .list-icon a {
+        margin: 0 8px;
+    }
+    #footer  .copyright, .copyright a {
+        font-size: 20px;    
+        margin: 16px 0;
+        display: inline-block;
+    }
+}
